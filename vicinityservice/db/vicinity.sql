@@ -67,13 +67,7 @@ CREATE TABLE IF NOT EXISTS `comment_table` (
 --
 
 INSERT INTO `comment_table` (`id`, `f_name`, `l_name`, `contact`, `occupation`, `cur_date`, `useremail`, `feedback`) VALUES
-(12, 'plumber3', 'p3', '9632587413', 'Plumber', '2020-06-05', 'gaurav@gmail.com', 'Good Customer Satisfaction'),
-(11, 'plumber3', 'p3', '9632587413', 'Plumber', '2020-06-05', 'gaurav@gmail.com', 'Good Service'),
-(10, 'plumber2', 'p', '9632587412', 'Plumber', '2020-06-05', 'gaurav@gmail.com', 'Service can be improved'),
-(9, 'plumber1', 'p', '9632587411', 'Plumber', '2020-06-05', 'gaurav@gmail.com', 'Good Service'),
-(13, 'plumber3', 'p3', '9632587413', 'Plumber', '2020-06-05', 'gaurav@gmail.com', 'Liked the way how things were fixed up so quickly without any errors and problems'),
-(14, 'plumber4', 'p4', '9632587414', 'Plumber', '2020-06-05', 'gaurav@gmail.com', 'Well done good job'),
-(15, 'plumber3', 'p3', '9632587413', 'Plumber', '2020-06-05', 'gaurav@gmail.com', 'Great Service well done');
+();
 
 -- --------------------------------------------------------
 
@@ -100,10 +94,7 @@ CREATE TABLE IF NOT EXISTS `event` (
 --
 
 INSERT INTO `event` (`ename`, `location`, `contact`, `etype`, `file1`, `file2`, `file3`, `edate`, `id`) VALUES
-('Holi', 'Mangalore', '9876541110', 'Cultural events', 'img/holi.jpg', 'Not Uploaded', 'Not Uploaded', '2020-04-25', 9),
-('Ugadi', 'Mangalore', '9876543210', 'Cultural events', 'img/ugadi1.jpg', 'ugadi2.jpg', 'ugadi3.jpg', '2020-04-28', 13),
-('Cricket Tounament', 'Ujire', '8521470369', 'Sports', 'img/adminlogin1.JPG', '', '', '2020-04-30', 14),
-('Football tournament', 'Ujire', '7899073638', 'Sports', 'img/football.jpg', '', '', '2020-06-07', 15);
+();
 
 -- --------------------------------------------------------
 
@@ -151,13 +142,7 @@ CREATE TABLE IF NOT EXISTS `intrestedevents` (
 --
 
 INSERT INTO `intrestedevents` (`id`, `eventname`, `organiser_contact_num`, `place`, `eventtype`, `eventdate`, `personname`, `personcontact`) VALUES
-(29, 'FOOTBALL TOURNAMENT', '7899073638', 'Ujire', 'Sports', '2020-06-07', 'gaurav', '7899073638'),
-(28, 'FOOTBALL TOURNAMENT', '7899073638', 'Ujire', 'Sports', '2020-06-07', 'gaurav', '7899073638'),
-(27, 'HOLI', '9876541110', 'Mangalore', 'Cultural events', '2020-04-25', 'gaurav', '7899073638'),
-(26, 'HOLI', '9876541110', 'Mangalore', 'Cultural events', '2020-04-25', 'gaurav', '7899073638'),
-(25, 'HOLI', '9876541110', 'Mangalore', 'Cultural events', '2020-04-25', 'gaurav', '7899073638'),
-(24, 'HOLI', '9876541110', 'Mangalore', 'Cultural events', '2020-04-25', 'gaurav', '7899073638'),
-(23, 'HOLI', '9876541110', 'Mangalore', 'Cultural events', '2020-04-25', 'gaurav', '7899073638');
+( );
 
 -- --------------------------------------------------------
 
@@ -180,7 +165,7 @@ CREATE TABLE IF NOT EXISTS `otptable` (
 --
 
 INSERT INTO `otptable` (`id`, `contactnum`, `otp`, `expired`, `otptimestamp`) VALUES
-(14, '7899073638', '736197', 1, '2020-06-03 06:37:57');
+();
 
 -- --------------------------------------------------------
 
@@ -211,13 +196,7 @@ CREATE TABLE IF NOT EXISTS `ratingtable` (
 --
 
 INSERT INTO `ratingtable` (`id`, `fname`, `lname`, `contact`, `email`, `username`, `useremail`, `usercontactinfo`, `rating`, `timestamp`, `feedback`, `service`, `location`) VALUES
-(46, 'plumber3', 'p3', '9632587413', 'plumber3@abc.com', 'gaurav', 'gaurav@gmail.com', '7899073638', '4', '2020-06-05 12:25:38', 'Great Service well done', 'Plumber', 'Mangalore'),
-(45, 'plumber4', 'p4', '9632587414', 'plumber4@abc.com', 'gaurav', 'gaurav@gmail.com', '7899073638', '3', '2020-06-05 10:23:44', 'Well done good job', 'Plumber', 'Mangalore'),
-(44, 'plumber3', 'p3', '9632587413', 'plumber3@abc.com', 'gaurav', 'gaurav@gmail.com', '7899073638', '4', '2020-06-05 09:57:15', 'Liked the way how things were fixed up so quickly without any errors and problems', 'Plumber', 'Mangalore'),
-(43, 'plumber3', 'p3', '9632587413', 'plumber3@abc.com', 'gaurav', 'gaurav@gmail.com', '7899073638', '4', '2020-06-05 09:55:49', 'Good Customer Satisfaction', 'Plumber', 'Mangalore'),
-(40, 'plumber1', 'p', '9632587411', 'plumber@abc.com', 'gaurav', 'gaurav@gmail.com', '7899073638', '3', '2020-06-05 09:51:28', 'Good Service', 'Plumber', 'Mangalore'),
-(41, 'plumber2', 'p', '9632587412', 'plumber2@abc.com', 'gaurav', 'gaurav@gmail.com', '7899073638', '2', '2020-06-05 09:52:48', 'Service can be improved', 'Plumber', 'Mangalore'),
-(42, 'plumber3', 'p3', '9632587413', 'plumber3@abc.com', 'gaurav', 'gaurav@gmail.com', '7899073638', '3', '2020-06-05 09:55:28', 'Good Service', 'Plumber', 'Mangalore');
+();
 
 -- --------------------------------------------------------
 
@@ -266,13 +245,7 @@ CREATE TABLE IF NOT EXISTS `servicestable` (
 --
 
 INSERT INTO `servicestable` (`id`, `fname`, `lname`, `contact`, `email`, `location`, `service`, `profilepic`) VALUES
-(1, 'plumber1', 'p', '9632587411', 'plumber@abc.com', 'Mangalore', 'Plumber', 'profile/pictures.jpg'),
-(8, 'plumber4', 'p4', '9632587414', 'plumber4@abc.com', 'Mangalore', 'Plumber', 'profile/pictures.jpg'),
-(7, 'plumber3', 'p3', '9632587413', 'plumber3@abc.com', 'Mangalore', 'Plumber', 'profile/pictures.jpg'),
-(6, 'plumber2', 'p', '9632587412', 'plumber2@abc.com', 'Mangalore', 'Plumber', 'profile/pictures.jpg'),
-(9, 'Yogi', 'Adi', '1234567890', 'yogi@electics.com', 'udupi', 'Electrician', ' '),
-(10, 'Adi', 'Nath', '1111111111', 'adiElectricals@abc.com', 'udupi', 'Electrician', 'profile/profile.jpg'),
-(11, 'abc', 'K', '8088423347', 'abc@gmail.com', 'Ujire', 'Plumber', 'profile/profiletwo.jpg');
+();
 
 -- --------------------------------------------------------
 
@@ -302,10 +275,7 @@ CREATE TABLE IF NOT EXISTS `userdetails` (
 --
 
 INSERT INTO `userdetails` (`id`, `fname`, `lname`, `email`, `contact`, `password`, `place`, `state`, `zipcode`, `gender`, `service`, `file`) VALUES
-(22, 'plumber1', 'p', 'plumber@abc.com', '9632587411', 'q1w2e3r4/', 'Mangalore', 'Karntaka', '575001', 'male', 'Plumber', 'pictures.jpg'),
-(23, 'gaurav', 'b', 'gaurav@gmail.com', '7899073638', '/i2jadw68krU', 'Mangalore', 'Karnataka', '575001', 'male', 'Common User', 'profile.jpg'),
-(25, 'yogi', 'adi', 'yogi@electrics.com', '123456789', '4COxcox+8A==', 'udupi', 'karnataka', '575112', 'male', 'Electrician', 'profile.jpg'),
-(26, 'abc', 'K', 'abc@gmail.com', '8088423347', '+C61Ko9/', 'Ujire', 'Karnataka', '574240', 'male', 'Plumber', 'profiletwo.jpg');
+();
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
