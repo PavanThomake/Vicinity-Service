@@ -1,0 +1,4 @@
+Testing:
+1) After uploading the profile photo in profileupload.php, the web page was not returning back to its original page(the header code in the upload process was commented.)
+2) There was an issue in user profile image when the image of the user was disapearing while updating any deatils. So an if loop is also added to fix this issue.
+3) The display search results isn search.php was not appearing properly in mobile phone, it was overlapping on top of the search bar, so a media query has been written to only for mobile phones to fix this issue.

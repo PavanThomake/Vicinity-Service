@@ -1,0 +1,11 @@
+APi Key
+g2ZmFlSNxTqKfXdBGjuyiwhYIRrJOb4vp1EDAWnUM7Coae5VcLvPX82N4yu6BQcgsfOUrhSMDEFYZw3L
+
+SMS gateway and its essentials login details:
+Company Name: FAST2SMS
+loginlink: Fast2SMS.com
+userid: my_contact_number.
+password: g3u2f4.
+
+The below link contains the api or sdk used for integrating the sms gateway. 
+https://docs.fast2sms.com/#quick-transactional-api
